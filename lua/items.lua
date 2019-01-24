@@ -22,6 +22,7 @@ minetest.register_craftitem("onetime_waypoint:waypoint", {
 
         if pos then
             pointer:setpos(pos)
+            minetest.chat_send_player(playername, "Waypoint dissolved!")
 
             onetime_waypoint:set_waypoint(playername)
             itemstack:take_item()
