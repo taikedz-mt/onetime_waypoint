@@ -1,17 +1,15 @@
-Place item : set waypoint, remove item
-Use item : go to waypoint, remove waypoint, remove item
+# Onetime Waypoints for Minetest
 
-One waypoint per user
+Waypoints allowing players to teleport back to the last place they set one. Placing a waypoint item sets the waypoint; using a waypoint item takes you to the last set waypoint.
 
-Unstackable item
+A player can only have one active waypoint at any one time.
 
-Suggested recipe for waypoint wand:
+Recipe:
 
 ```
-E = energy globe
-S = stick
+T = torch
 
-[E] [ ] [ ]
-[ ] [S] [ ]
-[ ] [ ] [S]
+[ ] [T] [ ]
+[ ] [T] [ ]
+[T] [ ] [T]
 ```
