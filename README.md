@@ -8,8 +8,13 @@ Recipe:
 
 ```
 T = torch
+C = core material
 
 [ ] [T] [ ]
-[ ] [T] [ ]
+[ ] [C] [ ]
 [T] [ ] [T]
 ```
+
+## Settings
+
+* `onetime_waypoint.core` - the itemstring for the core material

@@ -1,0 +1,1 @@
+onetime_waypoint.core (Core material for waypoint) string default:steel_ingot
