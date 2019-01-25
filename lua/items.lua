@@ -16,6 +16,11 @@ local function particle_effects(pos, colour)
             collisiondetection = false,
             texture = "tnt_smoke.png^[colorize:"..colour..":80:100"
     })
+
+    minetest.sound_play("onetime_waypoint_pom", {
+            pos = pos,
+            max_hear_distance = 20,
+    })
 end
 
 minetest.register_craftitem("onetime_waypoint:waypoint", {
